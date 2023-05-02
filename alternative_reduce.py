@@ -34,6 +34,7 @@ for hashtag in args.input_hashtags:
                                 count += text[k][key]
                 day_totals[date] = count
     total[hashtag] = day_totals
+plt.figure(figsize=(12,10))
 dates = []
 for hashtag, day_total in total.items():
     x_axis = []
