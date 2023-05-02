@@ -37,11 +37,11 @@ for k,v in items[:10]:
     keys = keys + [k]
     values = values + [v]
 plt.xticks(range(len(keys)), keys)
-plt.bar(range(len(keys)), values)
+plt.bar(range(len(keys)), values, color = "green")
 
 if 'lang' in str(args.input_path):
     plt.title('Spread of Coronavirus in Through Language in Twitter')
-    plt.xlabel('languange')
+    plt.xlabel('language')
     plt.ylabel('count')
     plt.legend()
     plt.savefig(f'{args.key} + _country.png')
