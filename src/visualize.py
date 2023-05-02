@@ -44,11 +44,11 @@ if 'lang' in str(args.input_path):
     plt.xlabel('language')
     plt.ylabel('count')
     plt.legend()
-    plt.savefig(f'{args.key} + _country.png')
+    plt.savefig(f'{args.key}_lang.png')
 
 if "country" in str(args.input_path):
     plt.title('Spread of Coronavirus in countries in Twitter')
     plt.xlabel('countries')
     plt.ylabel('count')
     plt.legend()
-    plt.savefig(f'{args.key} + _country.png')
+    plt.savefig(f'{args.key}_country.png')
