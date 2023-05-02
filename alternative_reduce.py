@@ -43,9 +43,9 @@ for hashtag, day_total in total.items():
         x_axis = x_axis + [x]
         y_axis = y_axis + [y]
         dates = dates + [x]
-    plt.plot(range(len(x_axis)), y_axis)
+    plt.plot(range(len(x_axis)), y_axis, label = hashtag)
 plt.title('Count of hashtags through 2020')
-plt.legend()
+plt.legend(loc= "upper right")
 plt.ylabel('tweet count')
 plt.xlabel("day of the year") 
 
