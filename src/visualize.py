@@ -36,8 +36,8 @@ values = []
 for k,v in items[:10]:
     keys = keys + [k]
     values = values + [v]
-
-plt.bar(k, v)
+plt.xticks(range(len(keys)), keys)
+plt.bar(range(len(keys)), values)
 
 if 'lang' in str(args.input_path):
     plt.title('Spread of Coronavirus in Through Language in Twitter')
