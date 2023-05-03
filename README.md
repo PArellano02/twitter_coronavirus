@@ -12,7 +12,7 @@ To do this this I ran the command
 python3 ./src/map.py --input_path=/data/Twitter\ dataset/geoTwitter20-01-01.zip
 ```
 
-to run the [map.py](/src/map.py) file. This file goes through a day's worth of geotagged tweets and obtains the creates a couple of files for the given day [geoTwitter20-01-01.zip.lang](outputs/geoTwitter20-001-01.zip.lang) and [geoTwitter20-01-01.zip.country](outputs/geoTwitter20-001-01.zip.country). These two files contain the use of the hashtags in each country and language in that particular day.
+to run the [map.py](/src/map.py) file. This file goes through a day's worth of geotagged tweets and obtains the creates a couple of files for the given day [geoTwitter20-01-01.zip.lang](/outputs/geoTwitter20-001-01.zip.lang) and [geoTwitter20-01-01.zip.country](/outputs/geoTwitter20-001-01.zip.country). These two files contain the use of the hashtags in each country and language in that particular day.
 
 
 To get this for all days of the year and not just January 1st, I created the [runmaps.sh](runmamps.sh) file that runs the [maps.py](src/map.py) file on every the zip files corresponding to every day of the year. To run this file I used the command
