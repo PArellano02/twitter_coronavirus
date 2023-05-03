@@ -65,3 +65,12 @@ python3 ./src/visualize.py --input_path=reduced.country --key='##코로나바이
 ![#코로나바이러스 across countries](/#코로나바이러스_country.png)
 
 
+## Altermnative_reduce.py 
+
+Finally, I created another file which takes as input a list of hashtags, loops over each file on the outputs folder a graph containing the use of those particular hashtags across all of 2020.
+
+Below are the graphs and their corresponding commands
+
+![#covid19 #virus](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%5B'%23covid19'%2C%20'%23virus'%5D_.png)
+
+![#hospital #doctor](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%5B'%23hospital'%2C%20'%23doctor'%5D_.png)
