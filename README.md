@@ -45,24 +45,24 @@ Bellow are the graphs and their corresponding commands
 python3 ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
 ```
 
-![#coronavirus across languages](/#coronavirus_lang.png)
+![#coronavirus across languages](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%23coronavirus_lang.png)
 
 ```
 python3 ./src/visualize.py --input_path=reduced.country --key='#coronavirus'
 ```
-![#coronavirus across countries](/#coronavirus_country.png)
+![#coronavirus across countries](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%23coronavirus_country.png)
 
 ```
 python3 ./src/visualize.py --input_path=reduced.lang --key='##코로나바이러스'
 ```
 
-![#코로나바이러스 across lamnguages](/#코로나바이러스_lang.png)
+![#코로나바이러스 across lamnguages](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4_lang.png)
 
 ```
 python3 ./src/visualize.py --input_path=reduced.country --key='##코로나바이러스'
 ```
 
-![#코로나바이러스 across countries](/#코로나바이러스_country.png)
+![#코로나바이러스 across countries](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4_country.png)
 
 
 ## Altermnative_reduce.py 
@@ -71,6 +71,14 @@ Finally, I created another file which takes as input a list of hashtags, loops o
 
 Below are the graphs and their corresponding commands
 
+```
+python3 ./alternative_reduce.py --input_hashtags '#covid19' '#virus'
+```
+
 ![#covid19 #virus](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%5B'%23covid19'%2C%20'%23virus'%5D_.png)
+
+```
+python3 ./alternative_reduce.py --input_hashtags '#hospital' '#doctor'
+```
 
 ![#hospital #doctor](https://raw.githubusercontent.com/PArellano02/twitter_coronavirus/master/%5B'%23hospital'%2C%20'%23doctor'%5D_.png)
